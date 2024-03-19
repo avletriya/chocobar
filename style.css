@@ -1,0 +1,297 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"GothamRoundedBook";
+}
+
+/* --------1st portion---------- */
+.container{
+     width: 100%;
+     height: 60vh;
+     background-image: url(images/product-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    position: relative;
+    object-position: center;
+}
+
+.container-lft{
+    
+    float: left;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+   align-items: first baseline;
+   gap: 180px;
+    
+}
+.container-lft .logo{
+    margin: 20px;
+}
+
+.container-lft .color{
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.container-rgt{
+    float: right;
+    width: 35%;
+    display: flex;
+}
+
+.container-rgt .heading{
+  font-size: 70px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 110px;
+  line-height: .7;
+  color: aliceblue;
+}
+
+.container-rgt .havmour {
+    float: right;
+    width: 302px;
+    height: 170px;
+    margin-right: 0;
+    
+}
+.container-rgt .sec1{
+    display: flex;
+    gap: 20px;
+}
+
+.sec2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 200px;
+    padding-right: 70px;
+}
+
+    .fa-solid{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+   
+    } 
+
+   /*--------- second position------------ */
+
+ .section2 {
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    display: block;
+    background-color: #fffbf1;
+ }
+
+ .section2 .section2-lft{
+    float:left;
+    width:50%;
+     height: 95vh;
+    background-color:#fffbf1;
+    margin: auto;
+ }
+
+ 
+ .section2-lft .img1{
+    width: 50%;
+    padding-left: 60px;
+    padding-top: 120px;
+
+ }
+ .section2 .section2-rgt{
+    float: right;
+    width: 50%;
+    height: 95vh;
+    padding-top: 160px;
+    background-color:#fffbf1;
+    
+    
+ }
+ .section2-rgt .head2{
+    color: #ff5061;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section2-rgt .para{
+    height: 140px;
+    padding: 20px 30px 10px 10px;
+    font-size: 20px;
+    color:#363636;
+}
+
+.section2-rgt .btn{
+    color:#f02635;
+    border: 1px solid #f02635;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 0px 18px;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: "GothamRoundedMedium";
+    font-size: 20px;
+    cursor: pointer;
+    background-color:#fffbf1;
+    text-transform: uppercase;  
+    font-weight: 400;
+}
+
+/*  3rd portion */
+
+.section3{
+    width: 100%;
+    height: 80px;
+    background-color:#532b1e;
+    position: relative;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ .btn{
+    height: 80px;
+    padding: 20px;
+    font-size: large;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;  
+    border: none;
+ }
+
+ .btn1{
+    background-color:#ff5061 ;
+ }
+
+
+ .btn2{
+    background-color: #532b1e;
+    
+} 
+.btn2:hover{
+    background-color: #ff5061;
+    
+}
+
+/* 4th position */
+.section4 {
+     width: 100%;
+     height:100vh; 
+     padding: 90px ;
+     padding-left: 150px;
+     background-color: #fffbf1;
+     
+}
+.section4 .division1 {
+     padding: 40px;
+     
+}
+
+.section4 .para{
+    padding: 0%;
+    color: #363636;
+    font-size: 20px;
+    
+}
+
+ .head4 {
+    font-weight: 800;
+    font-size: 20px;
+}
+.section4 .division2 {
+    padding: 40px;
+    
+}
+.section4 .division3 {
+    padding: 40px;
+}
+
+/*........ 5th portion.......... */
+
+ .section5 {
+    
+    width: 100%;
+    height: 650px;
+     background: #fffbf1;
+    border-top: 1px solid #ccc;
+    
+}
+.section5 .sctn5head{
+  margin: 50px 0 40px;
+  font-size: 1.875rem;
+  color:#ff5061;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+.section5 .parts{
+    display: block;
+    text-align: center;
+    margin-bottom:100px ;
+    padding: 0px 15px;
+    border-right: 1px solid #ccc;
+}
+
+.section5 .display{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+    height: 70px;
+}
+
+.display .color{
+    font-size: 1.25rem;
+    color: #363636;
+    margin: 22px 0px;
+}
+
+.display .btns{
+    color:white;
+    border: 1px solid #f02635;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 0px 18px;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: "GothamRoundedMedium";
+    font-size: 20px;
+    cursor: pointer;
+    background-color:#f02635;
+    text-transform: uppercase;  
+    font-weight: 400; 
+    }
+
+
+/* ........6th portion......... */
+
+.section6{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr; 
+    height: 400px;
+    background-color: #f02635;
+    padding: 40px;
+}
+
+.section6 .head5 {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
